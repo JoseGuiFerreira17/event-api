@@ -8,3 +8,8 @@ Content-Type: application/json
     "name": "John Doe",
     "email": "user@example.com"
 }
+
+###
+
+# @name invites
+GET {{base_url}}/invites/feb44da5-413e-4d49-be25-56e97b812fa1
