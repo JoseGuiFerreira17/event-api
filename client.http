@@ -1,0 +1,10 @@
+@base_url = http://localhost:3333
+
+# @name subscriptions
+POST {{base_url}}/subscriptions
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "user@example.com"
+}
