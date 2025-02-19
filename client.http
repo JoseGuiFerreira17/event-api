@@ -4,14 +4,27 @@ POST {{base_url}}/subscriptions
 Content-Type: application/json
 
 {
-    "name": "John Doe",
-    "email": "user@example.com"
+    "name": "John Doe5",
+    "email": "user5@gmail.com",
+    "referrer": "add73e03-4bdc-43d3-bcbf-3ef8d5086fdd"
 }
 
 ###
 
-GET {{base_url}}/invites/feb44da5-413e-4d49-be25-56e97b812fa1
+GET {{base_url}}/invites/640bf33d-a574-45ae-9402-35894a0c7ee8
 
 ###
 
-GET {{base_url}}/subscribers/feb44da5-413e-4d49-be25-56e97b812fa1/count
+GET {{base_url}}/subscribers/640bf33d-a574-45ae-9402-35894a0c7ee8/count
+
+###
+
+GET {{base_url}}/subscribers/640bf33d-a574-45ae-9402-35894a0c7ee8/ranking
+
+###
+
+GET {{base_url}}/subscribers/640bf33d-a574-45ae-9402-35894a0c7ee8/position
+
+###
+
+GET {{base_url}}/ranking
