@@ -1,6 +1,5 @@
 @base_url = http://localhost:3333
 
-# @name subscriptions
 POST {{base_url}}/subscriptions
 Content-Type: application/json
 
@@ -11,5 +10,8 @@ Content-Type: application/json
 
 ###
 
-# @name invites
 GET {{base_url}}/invites/feb44da5-413e-4d49-be25-56e97b812fa1
+
+###
+
+GET {{base_url}}/subscribers/feb44da5-413e-4d49-be25-56e97b812fa1/count
